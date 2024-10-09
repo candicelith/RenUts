@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/img_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/baseline_person_24"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/txt_uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Username: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/show_uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aaaa"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_keluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:backgroundTint="@color/cyan"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
